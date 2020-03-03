@@ -1,0 +1,8 @@
+#mainpage {
+  background: url("../_resources/hero_bg.jpg") no-repeat;
+  background-size: cover;
+  border: solid black 1px;
+  height: 100%;
+  margin: 0 auto;
+
+}
