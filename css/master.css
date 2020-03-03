@@ -1,8 +1,57 @@
 #mainpage {
-  background: url("../_resources/hero_bg.jpg") no-repeat;
-  background-size: cover;
+  /* background: url("../_resources/hero_bg.jpg") no-repeat;
+  background-size: cover; */
   border: solid black 1px;
+  /* height: 100%;
+  margin: 0 auto; */
+  height: calc(100vh - 112px);
+  position: relative;
+}
+.topPage-image-container {
+  position: absolute;
+  top: auto;
+  left: 0;
   height: 100%;
-  margin: 0 auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-article {
+  background-color: white;
+  text-align: left;
+  margin-top: 365px;
+  z-index: 2;
+  position: relative;
+}
+
+.main-imag {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.article-date {
+  color: red;
+  font-family: 'Muli', sans-serif;
+}
+
+.article-title {
+  font-family: 'Raleway', sans-serif;
+}
+
+.article-main {
+  font-family: 'Muli', sans-serif;
+}
+
+.article-main > li {
+  color: red;
+}
+
+.article-title {
+  font-family: 'Raleway', sans-serif;
+}
+
+.article-main {
+  font-family: 'Muli', sans-serif;
 
 }

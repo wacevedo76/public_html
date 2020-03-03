@@ -3,22 +3,27 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/master.css">
     <title></title>
   </head>
   <body>
-    <?php
-      include './_components/navbar.php';
-    ?>
-    <div id="mainpage">
-      test
+    <div class="main">
+      <?php
+        include './_components/navbar.php';
+      ?>
+      <div id="mainpage">
+        <div class="topPage-image-container">
+          <img class="main-img" src="./_resources/hero_bg.jpg" alt="">
+        </div>
+        <div class="container-md main-article p-5">
+          <?php
+            include './article.php';
+          ?>
 
-      <div class="container-lg">
-        <?php
-          include './article.php';
-        ?>
-
+        </div>
       </div>
+
     </div>
 
 
