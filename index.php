@@ -9,21 +9,16 @@
   </head>
   <body>
     <div class="main">
-      <?php
-        include './_components/navbar.php';
-      ?>
+      <?php include './_components/navbar.php'; ?>
       <div id="mainpage">
         <div class="topPage-image-container">
           <img class="main-img" src="./_resources/hero_bg.jpg" alt="">
         </div>
         <div class="container-md main-article p-5">
-          <?php
-            include './article.php';
-          ?>
-
+          <?php include './article.php'; ?>
         </div>
       </div>
-
+      <?php include './_components/footer.php' ?>
     </div>
 
 
