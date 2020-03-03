@@ -53,5 +53,10 @@
           voluptate sint laboris.</li>
       </ol>
     </ol>
+
+    <div class="bottom-img">
+      <img src="../_resources/image.jpg" alt="Iudicem ex fore">
+
+    </div>
   </div>
 </div>
